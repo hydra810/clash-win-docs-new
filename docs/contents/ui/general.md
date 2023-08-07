@@ -39,8 +39,8 @@
 - Log Level: 设置日志类型
 - IPv6：设置是否启用 IPv6 连接逻辑
 - Clash Core
-  - 盾牌图标: 添加 Allow LAN 与 System Stack 的防火墙规则
   - 内核版本号: 打开 Clash 内核控制 Web 页面
+  - ![button-functions](~@imgs/button-functions.png)
 - UWP Loopback：快速打开回环代理限制器
 - Home Directory：快速打开配置文件目录
 - GeoIP Database：点击更新 GeoIP 库 （macOS 可用）

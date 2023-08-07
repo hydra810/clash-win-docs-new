@@ -16,13 +16,13 @@
 ::: tip NOTICE
 如果使用`system`作为 TUN stack，需要同时在系统防火墙中将 clash core 放行，方法如下：
 
-在`0.19.27`及以上版本中，点击 Clash Core 版本号前的图标，并在 UAC 弹窗（若有）中允许运行，CFW 将自动配置对应的防火墙规则。
+在`0.19.27`及以上版本中，点击 General 页面的盾牌按钮，并在 UAC 弹窗（若有）中允许运行，CFW 将自动配置对应的防火墙规则。
 
 成功配置防火墙规则后该图标作为指示灯亮起。
 
-![](~@imgs/firewallrule1.png)
+![add-firewall-rules](~@imgs/add-firewall-rules.png)
 
-在 [Scoop](https://scoop.sh/) 版上使用此功能需要`0.20.3`及以上版本，并且每次更新 CFW 后都需要更新防火墙规则。如果要通过 Scoop 安装脚本实现自动更新规则，可以参考：[manifest](https://github.com/AkariiinMKII/Scoop4kariiin/blob/440f19c6c1cc70176e04221d16c8e806255ca325/bucket/ClashforWindows.json#L49-L70) [script](https://github.com/AkariiinMKII/Scoop4kariiin/blob/440f19c6c1cc70176e04221d16c8e806255ca325/scripts/ClashforWindows/update-firewall-rules.ps1#L1-L22)
+在 [Scoop](https://scoop.sh/) 版上使用此功能需要`0.20.3`及以上版本，并且每次更新 CFW 后都需要更新防火墙规则。如果要通过 Scoop 安装脚本实现自动更新规则，可以参考：[manifest](https://github.com/AkariiinMKII/Scoop4kariiin/blob/main/bucket/ClashforWindows.json#L57-L78) [script](https://github.com/AkariiinMKII/Scoop4kariiin/blob/main/scripts/ClashforWindows/update-firewall-rules.ps1#L1-L22)
 :::
 
 ::: tip NOTICE
@@ -66,6 +66,7 @@ Protocol    : UDP
 Program     : C:\Program Files\Clash for Windows\resources\static\files\win\x64\clash-win64.exe
 IsPathValid : True
 ```
+
 :::
 
 <outdated since="0.19.0">

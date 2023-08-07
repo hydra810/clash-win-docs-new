@@ -72,9 +72,9 @@ CFW 启动流程如下：
 :::
 
 ::: tip
-从`0.20.7`开始，可点击 Clash Core 右侧的按钮检查最终提交至 Clash 核心的用户配置文件
+从`0.20.7`开始，可点击 Clash Core 右侧的按钮预览最终提交至 Clash 核心的配置文件
 
-![](~@imgs/preview-profile.png)
+![preview-profile](~@imgs/preview-profile.png)
 :::
 
 ### 原因
