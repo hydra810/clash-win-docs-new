@@ -11,8 +11,8 @@
       :src="src"
       @click="$emit('click')"
     />
-    <div v-show="isFailed" class="card failed">
-      <div>image 404</div>
+    <div v-show="isFailed" class="card failed" @click="$emit('click')">
+      <div>The image failed to load, click to redirect to the website.</div>
     </div>
   </div>
 </template>
@@ -58,6 +58,7 @@ export default {
 }
 
 .card {
+  cursor: pointer;
   width: 100%;
   height: 100%;
   display: flex;
