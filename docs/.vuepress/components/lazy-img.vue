@@ -12,7 +12,7 @@
       @click="$emit('click')"
     />
     <div v-show="isFailed" class="card failed" @click="$emit('click')">
-      <div>The image failed to load, click to redirect to the website.</div>
+      <div>图片加载失败，点击可跳转到网站。</div>
     </div>
   </div>
 </template>
