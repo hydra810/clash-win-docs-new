@@ -23,6 +23,10 @@ export default {
           url: "https://clash01.youbbv.com/auth/register?code=gYgD",
           img: "https://clash01.youbbv.com/speedcat-banner.jpg",
         },
+        {
+          url: "https://dgyjsq.com/#/register?code=h2AjNdxs",
+          img: "https://dgyjsq.com/1.gif",
+        },
       ],
     };
   },
