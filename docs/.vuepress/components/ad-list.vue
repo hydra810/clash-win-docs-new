@@ -25,7 +25,7 @@ export default {
         },
         {
           url: "https://www.dgyjsq.com/#/register?code=h2AjNdxs",
-          img: "https://dgyjsq.com/1.gif",
+          img: "https://www.dgyjsq.com/1.gif",
         },
       ],
     };
